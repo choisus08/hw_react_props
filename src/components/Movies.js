@@ -1,4 +1,5 @@
-import Movie from './Movie'
+import Movie from './Movie'  // don't know why './Movie' is underlined red but it still rendered fine in react
+                             // asked in help channel, Alex says vscode might just be confused of syntax
 
 function Movies(props) {
     return <div className="Movies">

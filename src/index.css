@@ -20,15 +20,21 @@ code {
 .Movie {
   align-items: center;
   text-align: center; 
+  margin: 2em auto;
 }
 
 h1 {
   text-align: center;
-  margin: 1em 0 2em 0
+  margin: 1em 0 1em 0;
 }
 
 .Movies-grid {
   display: grid;
-  grid-template-columns: auto auto auto; 
+  grid-template-columns: repeat(auto-fit, minmax(230px, 2fr));
   margin: auto;
+  gap: 2em
+}
+
+p {
+  height: .5em;
 }
