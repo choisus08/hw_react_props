@@ -1,6 +1,12 @@
+import Movie from './Movie'
+
 function Movies(props) {
     return <div className="Movies">
-        Movies
+        <h1>Movies</h1>
+
+        {props.movies.map((item, index) => 
+        (<Movie movie={item} key={item.name}/>
+        ))}
     </div>
 }
 
