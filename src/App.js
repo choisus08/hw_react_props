@@ -28,7 +28,7 @@ function App() {
       name: "Legally Blonde",
       year: "2001",
       rating: "PG-13",
-      image: "https://www.something.com/image.png"
+      image: "https://i.ebayimg.com/images/g/KdkAAOSw-CpX~j55/s-l640.jpg"
 
     },
     {
