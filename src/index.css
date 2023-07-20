@@ -16,3 +16,19 @@ code {
   width: 15em;
   height: auto;
 }
+
+.Movie {
+  align-items: center;
+  text-align: center; 
+}
+
+h1 {
+  text-align: center;
+  margin: 1em 0 2em 0
+}
+
+.Movies-grid {
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  margin: auto;
+}
