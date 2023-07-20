@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Movies from './components/Movies';
 
 function App() {
 
@@ -44,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <Movies movies={movies} />
     
     </div>
   );
