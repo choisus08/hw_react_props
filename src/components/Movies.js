@@ -4,6 +4,7 @@ import Movie from './Movie'  // don't know why './Movie' is underlined red but i
 function Movies(props) {
     return <div className="Movies">
         <h1>Movies</h1>
+        <h3>[ Romantic Comedies ]</h3>
 
         <div className='Movies-grid'>
         {props.movies.map((item, index) => {
